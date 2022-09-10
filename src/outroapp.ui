@@ -91,15 +91,15 @@ border:none;</string>
          <widget class="QToolButton" name="toolButton">
           <property name="geometry">
            <rect>
-            <x>-127</x>
+            <x>0</x>
             <y>50</y>
-            <width>300</width>
+            <width>150</width>
             <height>50</height>
            </rect>
           </property>
           <property name="minimumSize">
            <size>
-            <width>300</width>
+            <width>150</width>
             <height>40</height>
            </size>
           </property>
@@ -116,7 +116,11 @@ border:none;</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">QToolButton:hover {
+           <string notr="true">QToolButton {
+	padding-left:-100px;
+}
+
+QToolButton:hover {
     
 	
 	
@@ -139,6 +143,9 @@ border:none;</string>
           <property name="popupMode">
            <enum>QToolButton::InstantPopup</enum>
           </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonIconOnly</enum>
+          </property>
           <property name="autoRaise">
            <bool>true</bool>
           </property>
@@ -146,21 +153,21 @@ border:none;</string>
          <widget class="QToolButton" name="toolButton_2">
           <property name="geometry">
            <rect>
-            <x>-127</x>
+            <x>0</x>
             <y>100</y>
-            <width>300</width>
+            <width>150</width>
             <height>50</height>
            </rect>
           </property>
           <property name="minimumSize">
            <size>
-            <width>300</width>
+            <width>150</width>
             <height>40</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>150</width>
+            <width>500</width>
             <height>16777215</height>
            </size>
           </property>
@@ -171,15 +178,17 @@ border:none;</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">QToolButton:hover {
-    
-	
-	
+           <string notr="true">QToolButton {
+	font: 10pt &quot;MS UI Gothic&quot;;
+	padding-left:10px;
+}
+
+QToolButton:hover {
 	background-color: rgb(60, 60, 60);
  }</string>
           </property>
           <property name="text">
-           <string/>
+           <string>       Home</string>
           </property>
           <property name="icon">
            <iconset>
@@ -194,6 +203,9 @@ border:none;</string>
           <property name="popupMode">
            <enum>QToolButton::InstantPopup</enum>
           </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextBesideIcon</enum>
+          </property>
           <property name="autoRaise">
            <bool>true</bool>
           </property>
@@ -201,15 +213,15 @@ border:none;</string>
          <widget class="QToolButton" name="toolButton_3">
           <property name="geometry">
            <rect>
-            <x>-127</x>
+            <x>0</x>
             <y>150</y>
-            <width>300</width>
+            <width>150</width>
             <height>50</height>
            </rect>
           </property>
           <property name="minimumSize">
            <size>
-            <width>300</width>
+            <width>150</width>
             <height>40</height>
            </size>
           </property>
@@ -226,15 +238,16 @@ border:none;</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">QToolButton:hover {
-    
-	
-	
+           <string notr="true">QToolButton {
+	padding-left:10px;
+	font: 10pt &quot;MS UI Gothic&quot;;
+}
+QToolButton:hover {
 	background-color: rgb(60, 60, 60);
  }</string>
           </property>
           <property name="text">
-           <string/>
+           <string>       Audio</string>
           </property>
           <property name="icon">
            <iconset>
@@ -249,6 +262,9 @@ border:none;</string>
           <property name="popupMode">
            <enum>QToolButton::InstantPopup</enum>
           </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextBesideIcon</enum>
+          </property>
           <property name="autoRaise">
            <bool>true</bool>
           </property>
@@ -256,15 +272,15 @@ border:none;</string>
          <widget class="QToolButton" name="toolButton_4">
           <property name="geometry">
            <rect>
-            <x>-127</x>
+            <x>0</x>
             <y>200</y>
-            <width>300</width>
+            <width>150</width>
             <height>51</height>
            </rect>
           </property>
           <property name="minimumSize">
            <size>
-            <width>300</width>
+            <width>150</width>
             <height>40</height>
            </size>
           </property>
@@ -281,15 +297,16 @@ border:none;</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">QToolButton:hover {
-    
-	
-	
+           <string notr="true">QToolButton {
+	padding-left:10px;
+	font: 10pt &quot;MS UI Gothic&quot;;
+}
+QToolButton:hover {
 	background-color: rgb(60, 60, 60);
  }</string>
           </property>
           <property name="text">
-           <string/>
+           <string>       Image</string>
           </property>
           <property name="icon">
            <iconset>
@@ -303,6 +320,9 @@ border:none;</string>
           </property>
           <property name="popupMode">
            <enum>QToolButton::InstantPopup</enum>
+          </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextBesideIcon</enum>
           </property>
           <property name="autoRaise">
            <bool>true</bool>
