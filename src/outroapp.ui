@@ -10,6 +10,12 @@
     <height>470</height>
    </rect>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>470</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -59,6 +65,12 @@
        </property>
        <item>
         <widget class="QFrame" name="frame">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>50</width>
@@ -79,16 +91,22 @@ border:none;</string>
          <widget class="QToolButton" name="toolButton">
           <property name="geometry">
            <rect>
-            <x>-13</x>
+            <x>-127</x>
             <y>50</y>
-            <width>75</width>
+            <width>300</width>
             <height>50</height>
            </rect>
           </property>
           <property name="minimumSize">
            <size>
-            <width>73</width>
+            <width>300</width>
             <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
            </size>
           </property>
           <property name="sizeIncrement">
@@ -100,7 +118,9 @@ border:none;</string>
           <property name="styleSheet">
            <string notr="true">QToolButton:hover {
     
-	background-color: rgb(163, 163, 163);
+	
+	
+	background-color: rgb(60, 60, 60);
  }</string>
           </property>
           <property name="text">
@@ -108,7 +128,7 @@ border:none;</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>myoutro/src/media/icons/icons8-menu.svg</normaloff>myoutro/src/media/icons/icons8-menu.svg</iconset>
+            <normaloff>media/icons/icons8-menu.svg</normaloff>media/icons/icons8-menu.svg</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -126,16 +146,22 @@ border:none;</string>
          <widget class="QToolButton" name="toolButton_2">
           <property name="geometry">
            <rect>
-            <x>-12</x>
+            <x>-127</x>
             <y>100</y>
-            <width>75</width>
+            <width>300</width>
             <height>50</height>
            </rect>
           </property>
           <property name="minimumSize">
            <size>
-            <width>73</width>
+            <width>300</width>
             <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
            </size>
           </property>
           <property name="sizeIncrement">
@@ -147,7 +173,9 @@ border:none;</string>
           <property name="styleSheet">
            <string notr="true">QToolButton:hover {
     
-	background-color: rgb(163, 163, 163);
+	
+	
+	background-color: rgb(60, 60, 60);
  }</string>
           </property>
           <property name="text">
@@ -155,12 +183,12 @@ border:none;</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>myoutro/src/media/icons/icons8-home.svg</normaloff>myoutro/src/media/icons/icons8-home.svg</iconset>
+            <normaloff>media/icons/icons8-home.svg</normaloff>media/icons/icons8-home.svg</iconset>
           </property>
           <property name="iconSize">
            <size>
-            <width>30</width>
-            <height>30</height>
+            <width>25</width>
+            <height>25</height>
            </size>
           </property>
           <property name="popupMode">
@@ -173,16 +201,22 @@ border:none;</string>
          <widget class="QToolButton" name="toolButton_3">
           <property name="geometry">
            <rect>
-            <x>-18</x>
+            <x>-127</x>
             <y>150</y>
-            <width>81</width>
+            <width>300</width>
             <height>50</height>
            </rect>
           </property>
           <property name="minimumSize">
            <size>
-            <width>73</width>
+            <width>300</width>
             <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
            </size>
           </property>
           <property name="sizeIncrement">
@@ -194,7 +228,9 @@ border:none;</string>
           <property name="styleSheet">
            <string notr="true">QToolButton:hover {
     
-	background-color: rgb(163, 163, 163);
+	
+	
+	background-color: rgb(60, 60, 60);
  }</string>
           </property>
           <property name="text">
@@ -202,12 +238,12 @@ border:none;</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>myoutro/src/media/icons/icons8-music.svg</normaloff>myoutro/src/media/icons/icons8-music.svg</iconset>
+            <normaloff>media/icons/icons8-music.svg</normaloff>media/icons/icons8-music.svg</iconset>
           </property>
           <property name="iconSize">
            <size>
-            <width>30</width>
-            <height>30</height>
+            <width>25</width>
+            <height>25</height>
            </size>
           </property>
           <property name="popupMode">
@@ -220,16 +256,22 @@ border:none;</string>
          <widget class="QToolButton" name="toolButton_4">
           <property name="geometry">
            <rect>
-            <x>-12</x>
+            <x>-127</x>
             <y>200</y>
-            <width>75</width>
+            <width>300</width>
             <height>51</height>
            </rect>
           </property>
           <property name="minimumSize">
            <size>
-            <width>73</width>
+            <width>300</width>
             <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
            </size>
           </property>
           <property name="sizeIncrement">
@@ -241,7 +283,9 @@ border:none;</string>
           <property name="styleSheet">
            <string notr="true">QToolButton:hover {
     
-	background-color: rgb(163, 163, 163);
+	
+	
+	background-color: rgb(60, 60, 60);
  }</string>
           </property>
           <property name="text">
@@ -249,12 +293,12 @@ border:none;</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>myoutro/src/media/icons/icons8-image-gallery-24.svg</normaloff>myoutro/src/media/icons/icons8-image-gallery-24.svg</iconset>
+            <normaloff>media/icons/icons8-image-gallery-24.svg</normaloff>media/icons/icons8-image-gallery-24.svg</iconset>
           </property>
           <property name="iconSize">
            <size>
-            <width>30</width>
-            <height>30</height>
+            <width>25</width>
+            <height>25</height>
            </size>
           </property>
           <property name="popupMode">
