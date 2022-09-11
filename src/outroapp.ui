@@ -10,6 +10,12 @@
     <height>470</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>470</height>
+   </size>
+  </property>
   <property name="maximumSize">
    <size>
     <width>800</width>
@@ -181,6 +187,9 @@ QToolButton:hover {
            <string notr="true">QToolButton {
 	font: 10pt &quot;MS UI Gothic&quot;;
 	padding-left:10px;
+	border : solid white;
+	font-weight: bold;
+	border-width : 0px 0px 0px 2px;
 }
 
 QToolButton:hover {
