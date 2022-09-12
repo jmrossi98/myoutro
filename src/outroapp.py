@@ -29,14 +29,6 @@ clicked_button_style = \
     }	
 """
 
-class HoverButton(QtWidgets.QToolButton):
-    def __init__(self, parent=None):
-        super(HoverButton, self).__init__(parent)
-        self.setStyleSheet('''border-image: url("media/icons/shutdown_vector_icon_5.png"); border-top-right-radius: 200px; border-top-left-radius: 200px;''')
-
-    def resizeEvent(self, event):
-        self.setMask(QtGui.QRegion(self.rect(), QtGui.QRegion.Ellipse))
-        QtWidgets.QToolButton.resizeEvent(self, event)
 
 class OutroApp(QtWidgets.QMainWindow):
     def __init__(self):
@@ -49,7 +41,7 @@ class OutroApp(QtWidgets.QMainWindow):
         self.toolButton_2.clicked.connect(lambda: self.open_home())
         self.toolButton_3.clicked.connect(lambda: self.open_audio())
         self.toolButton_4.clicked.connect(lambda: self.open_image())
-        self.label = HoverButton(self.label)
+        # self.label = HoverButton(self.label)
 
     def close_menu(self):
         self.open_animation = QtCore.QPropertyAnimation(self.frame, b"maximumWidth")
