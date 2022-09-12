@@ -41,7 +41,8 @@ class OutroApp(QtWidgets.QMainWindow):
         self.toolButton_2.clicked.connect(lambda: self.open_home())
         self.toolButton_3.clicked.connect(lambda: self.open_audio())
         self.toolButton_4.clicked.connect(lambda: self.open_image())
-        # self.label = HoverButton(self.label)
+        self.pushButton.setMask(QtGui.QRegion(self.pushButton.rect(), QtGui.QRegion.Ellipse))
+
 
     def close_menu(self):
         self.open_animation = QtCore.QPropertyAnimation(self.frame, b"maximumWidth")
